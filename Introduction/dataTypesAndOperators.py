@@ -5,6 +5,7 @@ def arithmetic_operations():
     print(126 / 5)
     print(123 % 4)
     print(123 // 4)
+    print(3 ** 4)
 
 if __name__ == '__main__':
     arithmetic_operations()    
