@@ -1,4 +1,4 @@
-def varValuesAssignmentExample():
+def variable_values_assignment_example():
     x = 2
     y = 3
     z = 5
@@ -6,4 +6,4 @@ def varValuesAssignmentExample():
     print(x, y, z, i, j, k)
 
 if __name__ == '__main__':
-    varValuesAssignmentExample()
+    variable_values_assignment_example()

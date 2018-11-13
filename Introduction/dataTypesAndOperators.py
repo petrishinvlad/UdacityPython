@@ -13,7 +13,7 @@ My electricity bills for the last three months have been $23, $32 and $64.
 What is the average monthly electricity bill over the three month period? 
 Write an expression to calculate the mean, and use print() to view the result.
 '''
-def avetageElectricityBill():
+def avetage_electricity_bill():
     print('Average electricity bill task')
     print((23 + 32 + 64) /3)
     print('End of task')
@@ -28,12 +28,12 @@ You buy 17 packages of tiles containing 6 tiles each. How many tiles will be lef
 '''
 def calculate():
     print('Tiles calculation task')
-    neededTiles = (9 * 7) + (7 * 5)
-    print(neededTiles)
-    print(102 - neededTiles)
+    needed_tiles = (9 * 7) + (7 * 5)
+    print(needed_tiles)
+    print(102 - needed_tiles)
     print('End of task')
 
 if __name__ == '__main__':
     arithmetic_operations()   
-    avetageElectricityBill() 
+    avetage_electricity_bill() 
     calculate()
