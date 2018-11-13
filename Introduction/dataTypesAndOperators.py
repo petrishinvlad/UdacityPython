@@ -27,9 +27,11 @@ How many tiles are needed?
 You buy 17 packages of tiles containing 6 tiles each. How many tiles will be left over?
 '''
 def calculate():
+    print('Tiles calculation task')
     neededTiles = (9 * 7) + (7 * 5)
     print(neededTiles)
     print(102 - neededTiles)
+    print('End of task')
 
 if __name__ == '__main__':
     arithmetic_operations()   
